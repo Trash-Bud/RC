@@ -1,0 +1,13 @@
+PC63
+MAC: ether 00:22:64:a7:32:ab txqueuelen 1000 (Ethernet)
+IP: inet 172.16.60.1 netmask 255.255.255.0 broadcast 172.16.60.255
+PC64
+MAC: ether 00:21:5a:5a:75:bb txqueuelen 1000 (Ethernet)
+IP: inet 172.16.60.254 netmask 255.255.255.0 broadcast 172.16.60.255
+
+MAC: ether 00:08:54:71:73:ed txqueuelen 1000 (Ethernet)
+IP: inet 172.16.61.253 netmask 255.255.255.0 broadcast 172.16.61.255
+
+PC62
+MAC: ether 00:21:5a:61:2d:df txqueuelen 1000 (Ethernet)
+IP: inet 172.16.61.1 netmask 255.255.255.0 broadcast 172.16.61.255

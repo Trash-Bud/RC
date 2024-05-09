@@ -1,0 +1,19 @@
+pc4
+Destination  Gateway  Genmask      Flags Metric Ref Use Iface
+172.16.60.0  0.0.0.0  255.255.255.0  U     0     0   0   eth0
+172.16.61.0  0.0.0.0  255.255.255.0  U     0     0   0   eth1
+
+pc3
+Destination  Gateway  Genmask      Flags Metric Ref Use Iface
+0.0.0.0      172.16.60.1 0.0.0.0     UG    0     0   0   eth0
+172.16.2.0  0.0.0.0  255.255.255.0  U     0     0   0   eth1
+172.16.60.0  0.0.0.0  255.255.255.0  U     0     0   0   eth0
+172.16.61.0  172.16.60.254  255.255.255.0  UG     0     0   0   eth0
+
+pc2
+Destination  Gateway  Genmask      Flags Metric Ref Use Iface
+0.0.0.0      172.16.61.254 0.0.0.0     UG    0     0   0   eth0
+172.16.1.0  172.16.2.254  255.255.255.0  UG     0     0   0   eth1
+172.16.2.0  0.0.0.0  255.255.255.0  U     0     0   0   eth1
+172.16.60.0  172.16.61.253  255.255.255.0  UG     0     0   0   eth0
+172.16.61.0  0.0.0.0  255.255.255.0  U     0     0   0   eth0
